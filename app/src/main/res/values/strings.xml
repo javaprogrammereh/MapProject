@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GoogleMap</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="rayane">رایانه ای</string>
+    <string name="kshavarzi">کشاورزی</string>
+    <string name="damdari">دامداری</string>
+    <string name="maqaze">مغازه داران</string>
+    <string name="about">درباره ما</string>
+    <string name="asnaf">اصناف</string>
+    <string name="off">خروج</string>
+    <string name="name"> نام :</string>
+    <string name="phoneNumber"> شماره تماس :</string>
+    <string name="bio"> مشخصات :</string>
+    <string name="ok">ثبت</string>
+    <string name="search">مکان مورد نظر را وارد کنید</string>
+    <string name="hintSearch">مثل مجموعه نرم افزاری آلفاو...</string>
+    <string name="montakhab">آدرس های منتخب</string>
+    <string name="natayej">نتایج جستجو</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

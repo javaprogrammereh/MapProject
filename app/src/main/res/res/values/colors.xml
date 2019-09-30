@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#FF031F2F</color>
+    <color name="colorAccent">#D81B60</color>0
+    <color name="toolbar">#3D6881</color>
+    <color name="toolbarDark">#003858</color>
+    <color name="withe">#ffffff</color>
+    <color name="dark_withe">#EAFDFB</color>
+    <color name="popup_dark_withe">#A4EAFDFB</color>
+    <color name="black">#000000</color>
+    <color name="back_menu">#4F000000</color>
+    <color name="gray">#696969</color>
+    <color name="back_menu_blue">#008BFF</color>
+    <color name="popup_back">#88008BFF</color>
+
+</resources>

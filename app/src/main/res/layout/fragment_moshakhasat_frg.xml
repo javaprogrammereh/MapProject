@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Moshakhasat">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_cancel"
+                    android:id="@+id/close_frg"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"/>
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/shape_image"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/border_image">
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/ic_camera"
+                        android:id="@+id/image_moshakasat"/>
+
+                </RelativeLayout>
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/border_image"
+                    android:layout_margin="10dp"
+                    android:id="@+id/name_moshakasat"
+                    android:text="@string/name"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:textAlignment="center"/>
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/border_image"
+                    android:layout_below="@+id/name_moshakasat"
+                    android:layout_margin="10dp"
+                    android:id="@+id/phone_moshakasat"
+                    android:text="@string/phoneNumber"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:textAlignment="center"/>
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/border_image"
+                    android:layout_below="@+id/phone_moshakasat"
+                    android:layout_margin="10dp"
+                    android:id="@+id/bio_moshakasat"
+                    android:text="@string/bio"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:textAlignment="center"/>
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/bio_moshakasat"
+                    android:layout_margin="10dp"
+                    android:id="@+id/space_moshakasat"
+                    android:text="space"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:textAlignment="center"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

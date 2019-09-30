@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/toolbarDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="toolbar" parent="AppTheme">
+        <item name="colorPrimary">@color/toolbar</item>
+        <item name="colorPrimaryDark">@color/toolbarDark</item>
+    </style>
+    <style name="form" parent="AppTheme">
+        <item name="colorPrimary">@color/gray</item>
+        <item name="colorPrimaryDark">@color/back_menu</item>
+    </style>
+
+</resources>
